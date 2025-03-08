@@ -5,7 +5,7 @@ import { FaUserGraduate, FaChair, FaCalendarAlt } from "react-icons/fa"; // Icon
 import { motion } from "framer-motion"; // Animations
 import ClipLoader from "react-spinners/ClipLoader"; // Loader
 
-const API_URL = `${ import.meta.env.VITE_REACT_APP_BACKEND_BASEURL }/api/bookings`;
+const API_URL = `${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/api/bookings`;
 
 function FacultyDashboard() {
   const [bookings, setBookings] = useState({});
@@ -47,9 +47,9 @@ function FacultyDashboard() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
-      <motion.h1 
-        className="text-3xl font-bold text-center text-gray-900 mb-6"
+    <div className="min-h-screen p-4 sm:p-6 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900">
+      <motion.h1
+        className="text-2xl sm:text-3xl font-bold text-center text-white mb-4 sm:mb-6"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
@@ -60,47 +60,58 @@ function FacultyDashboard() {
       {/* Loading Spinner */}
       {loading ? (
         <div className="flex justify-center items-center h-40">
-          <ClipLoader color="#2563EB" size={50} />
+          <ClipLoader color="#ffffff" size={50} />
         </div>
       ) : (
-        <div className="overflow-x-auto max-w-4xl mx-auto">
+        <div className="max-w-5xl mx-auto overflow-x-auto">
           {Object.keys(bookings).length === 0 ? (
-            <p className="text-center text-gray-500">No bookings found.</p>
+            <p className="text-center text-gray-300">No bookings found.</p>
           ) : (
             Object.entries(bookings).map(([date, dayBookings]) => (
-              <motion.div 
-                key={date} 
-                className="bg-white shadow-lg rounded-lg p-5 mb-6 border border-gray-200"
+              <motion.div
+                key={date}
+                className="bg-gray-800 shadow-lg rounded-lg p-4 sm:p-5 mb-4 sm:mb-6 border border-gray-600"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.3 }}
               >
-                <div className="flex items-center gap-2 mb-3 text-gray-700 text-lg font-semibold">
-                  <FaCalendarAlt className="text-blue-500" />
+                {/* Date Header */}
+                <div className="flex items-center gap-2 mb-2 sm:mb-3 text-gray-300 text-sm sm:text-lg font-semibold">
+                  <FaCalendarAlt className="text-blue-400" />
                   {date}
                 </div>
-                <table className="w-full border-collapse">
-                  <thead>
-                    <tr className="bg-blue-500 text-white">
-                      <th className="border p-3 text-left"> <FaUserGraduate className="inline-block mr-1" /> Student ID</th>
-                      <th className="border p-3 text-left"> Name</th>
-                      <th className="border p-3 text-left"> <FaChair className="inline-block mr-1" /> Seat</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {dayBookings.map((booking, index) => (
-                      <motion.tr 
-                        key={booking._id} 
-                        className={`text-gray-700 ${index % 2 === 0 ? "bg-gray-50" : "bg-white"}`}
-                        whileHover={{ scale: 1.02 }}
-                      >
-                        <td className="border p-3">{booking.studentId}</td>
-                        <td className="border p-3">{booking.name}</td>
-                        <td className="border p-3">{booking.seatNumber + 1}</td>
-                      </motion.tr>
-                    ))}
-                  </tbody>
-                </table>
+
+                {/* Responsive Table */}
+                <div className="overflow-x-auto">
+                  <table className="w-full border-collapse text-xs sm:text-sm text-white">
+                    <thead>
+                      <tr className="bg-blue-600">
+                        <th className="border p-2 sm:p-3 text-left">
+                          <FaUserGraduate className="inline-block mr-1" /> Student ID
+                        </th>
+                        <th className="border p-2 sm:p-3 text-left"> Name</th>
+                        <th className="border p-2 sm:p-3 text-left">
+                          <FaChair className="inline-block mr-1" /> Seat
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {dayBookings.map((booking, index) => (
+                        <motion.tr
+                          key={booking._id}
+                          className={`transition-all ${
+                            index % 2 === 0 ? "bg-gray-700" : "bg-gray-800"
+                          } hover:bg-gray-600`}
+                          whileHover={{ scale: 1.02 }}
+                        >
+                          <td className="border p-2 sm:p-3">{booking.studentId}</td>
+                          <td className="border p-2 sm:p-3">{booking.name}</td>
+                          <td className="border p-2 sm:p-3">{booking.seatNumber + 1}</td>
+                        </motion.tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
               </motion.div>
             ))
           )}

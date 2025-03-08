@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import axios from "axios";
-import { toast, ToastContainer } from "react-toastify"; // ✅ Import ToastContainer
+import { toast, ToastContainer } from "react-toastify"; 
 import "react-toastify/dist/ReactToastify.css";
 
 const API_URL = import.meta.env.VITE_REACT_APP_BACKEND_BASEURL;
@@ -75,11 +75,11 @@ const BookingForm = ({ selectedDate, seatNumber, fetchBookings, closeModal, user
 
     return (
         <>
-            {/* Toast Container - Ensuring Z-Index is High */}
-            <ToastContainer position="top-right" autoClose={3000} hideProgressBar={false} className="z-[9999]" />
+            {/* ✅ Place ToastContainer outside the modal, with the highest z-index */}
+            <ToastContainer position="top-right" autoClose={3000} hideProgressBar={false} className="z-[10000]" />
 
             <motion.div 
-                className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 backdrop-blur-md z-[9998] p-4"
+                className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-[9999] p-4"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
