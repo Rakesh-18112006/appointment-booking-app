@@ -1,0 +1,368 @@
+[
+    {
+        "studentId": "N220788",
+        "name": "MUMMANA RAKESH",
+        "role": "faculty",
+        "password": "csefaculty@rguktn"
+    },
+    {
+        "studentId": "FAC101",
+        "name": "Facuty 101",
+        "role": "faculty",
+        "password": "csefaculty@rguktn"
+    },
+    {
+        "studentId": "N220022",
+        "name": "PERURI KANAKA BHUVANESWARI",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220042",
+        "name": "GOTTUMUKKALA NAGENDRA KUMAR",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220047",
+        "name": "SALMA",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220072",
+        "name": "KOKKILIGADDA SURESH",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220095",
+        "name": "SONTENAM NAGA JAYA PAIDI GANGOTHRI",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220112",
+        "name": "KAPALA TEJA",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220148",
+        "name": "SHAIK VASIM JAFAR",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220156",
+        "name": "TANNERU SHALINI",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220189",
+        "name": "KUNIBILLI PARAMESWARARAO",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220191",
+        "name": "KOTHAPALLI HARIKA DEVI",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220199",
+        "name": "GOUTAM PARIGA",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220226",
+        "name": "ALLAKA BHARGAVI DURGA MAHESWARI",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220264",
+        "name": "SADHU ANIL KUMAR REDDY",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220293",
+        "name": "KOLLI GANESH",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220301",
+        "name": "KURAKULA HEPSIBA",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220310",
+        "name": "THATHAPUDI JESSY",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220382",
+        "name": "POTNURU JAMUNA",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220411",
+        "name": "YANAMALA ASWANI DURGA",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220414",
+        "name": "DONKA JAYA LAXMI",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220418",
+        "name": "PIDIDHI SREELATHA",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220423",
+        "name": "TAPPETLA CHANDRIKA",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220428",
+        "name": "KONDANGI POOJITHA",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220447",
+        "name": "JAMMIGUMPULA PADMA VASANTHI",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220460",
+        "name": "PASALA PRATHIMA",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220474",
+        "name": "VAKADA RAMYA SRI LAKSHMI",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220507",
+        "name": "KOTHAMASU HASINI",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220509",
+        "name": "AMARA TEJA SRI",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220511",
+        "name": "MODUGU PRASANNA",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220561",
+        "name": "CHITIKELA VARSHITHA",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220575",
+        "name": "PRATHAKOTA VIKRAM",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220603",
+        "name": "GANJI JASWANTH KUMAR",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220615",
+        "name": "GANTIMALLA POORNENDRA SREERAJU",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220625",
+        "name": "SHAIK REHANA",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220671",
+        "name": "ANUPOJU BRAHMAJI",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220674",
+        "name": "SHAIK SABIHA",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220733",
+        "name": "SHAIK RAHAMATH",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220739",
+        "name": "BETHA PRIYANKA",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220747",
+        "name": "SHAIK SUHANA FARHATH",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220781",
+        "name": "KALAGATLAPALLE CHINNA DASTAGIRI",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220797",
+        "name": "KARASTALAM JAGADEESWARI",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220864",
+        "name": "GOKARLA JAGADEESH",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220866",
+        "name": "NARALA VIVEK REDDY",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220888",
+        "name": "SIGHAKOLLI RAKESH",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220923",
+        "name": "KUNCHAM AKHIL",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220948",
+        "name": "MAKKE LAVANYA",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220950",
+        "name": "AKULA SUPRIYA",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220951",
+        "name": "NALLAM VEERA VENKATA SRIMANNARAYANA",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220971",
+        "name": "PALANKI  KEERTHANA",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220975",
+        "name": "KARRI NANDINI",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220993",
+        "name": "PYDI JHANSI",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N221019",
+        "name": "MOJALA DALI SRILAKSHMI",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N221024",
+        "name": "ALLU DHARANI LAKSHMI",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N221036",
+        "name": "GUNDA HARIKA",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N221079",
+        "name": "VANTAKU VARSHITHA",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N221081",
+        "name": "ADARI DANIYA GANA SAI NOOKA CHANDRIKA",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N221114",
+        "name": "GUTHI NAVYA SRI",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N221153",
+        "name": "KASA GNANA SRI",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220852",
+        "name": "anonymmus",
+        "role": "student",
+        "password": "cse@rguktn"
+    },
+    {
+        "studentId": "N220154",
+        "name": "PANUGOTHU VENNELA BAI",
+        "role": "student",
+        "password": "cse@rguktn"
+    }
+]
